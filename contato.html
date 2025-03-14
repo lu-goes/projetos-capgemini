@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Contato </title>
+</head>
+<body>
+    <header>
+        <h1>
+            Contato
+        </h1>
+    </header>
+    <nav>
+        <h2>
+            Navegação Principal
+        </h2>
+        <ol>
+            <li>
+                <a href ="Aula1.html" target="_self"> Início </a>
+            </li>
+            
+            <li>
+                <a href ="sobre.html" target="_self"> Sobre mim </a>
+            </li>
+            
+            <li>
+                <a href ="contato.html"> Contato </a>
+                <ul>
+                    <li> <a href="https://facebook.com"> Facebook </a></li>
+                    <li> <a href="https://linkedin.com"> LinkedIn </a></li>
+                    <li> <a href="tel:+5511924513568"> (11) 92451-3568 </a></li>
+
+                </ul>
+            </li>
+        </ol>
+    </nav>
+    <form>
+        <input type="text" name="nome" placeholder="Nome"/><br/>
+        <input type="email" name="email" placeholder="Seu Email"/><br/>
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"/><br/>
+        <input type="number" name="idade" placeholder="Idade"/><br/>
+        <input type="url" name="LinkedIn" placeholder="LinkedIn URL"/><br/>
+        Urgência<input type="range" name="Urgência" min="0" max="100" step="0.1"/><br/>
+        <input type="checkbox" name="dia-da-semana" value="2"/> Segunda-feira<br/> 
+        <input type="checkbox" name="dia-da-semana" value="4"/> Quarta-feira<br/>
+        <input type="checkbox" name="dia-da-semana" value="6"/> Sexta-feira<br/>
+        <input type="radio" name="horario" value="manha"/>Manhã
+        <input type="radio" name="horario" value="tarde"/>Tarde
+        <input type="radio" name="horario" value="noite"/>Noite <br/>
+        <textarea name="mensagem" cols="50" rows="10"> </textarea><br/>
+        Cidade <input list="cidade" name="cidade"/>
+        <datalist id="cidade">
+            <option value=""> Selecione a cidade </option>
+            <option value="Blumenau"> Blumenau </option>
+            <option value="Florianopolis"> Florianopolis </option>
+            <option value="Joinville"> Joinville </option>
+        </datalist><br/>
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+<footer>
+    Criado no curso de HTML <br/>
+    &copy; 2025 - Luiza Goes
+</footer>
+</html>

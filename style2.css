@@ -1,0 +1,30 @@
+h1{
+    color: white;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+.box{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    display: block;
+    color: white;
+    border: 2px dotted yellow;
+    margin: 10px 0 5px 10px;
+}
+.vermelho{
+    background-color: red;
+    border-width: 2px;
+    border-bottom-width: 0;
+    border-style: dashed;
+}
+.azul{
+    background-color: blue;
+    border-bottom-style: double;
+}
+.verde{
+    background-color: green;
+    border-style: solid;
+}

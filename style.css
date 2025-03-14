@@ -1,0 +1,27 @@
+html{
+    color:#000000;
+    background-color: white;
+}
+main{
+    font-family: sans-serif;
+   font-weight: 100;
+   font-size: large;
+   
+}
+main p{
+    text-indent: 2rem;
+    text-align: left;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h2#titulo-primeira-aula{
+    letter-spacing: 1rem;
+}
+a:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+p:hover{
+    color: red;
+}
